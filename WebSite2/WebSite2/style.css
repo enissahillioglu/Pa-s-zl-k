@@ -1,0 +1,478 @@
+﻿body {
+        background-color: #b5b4b4;
+        width: 100%;
+        height: 100%;
+}
+* {
+    margin :0;
+    padding:0;
+    border:0;
+}
+a{
+    text-decoration:none;
+    color:#000000;
+}
+
+.container{
+  width:100%;
+  padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto;
+
+}
+.sitekalip{
+    overflow:hidden;
+    min-height:100%;
+}
+ #wrapper{
+     width: 100%;
+     height:auto;
+     margin:0 auto;
+ }
+header{
+    float:left;
+    width: 100%;
+    height:80px;
+    background-color:#ffffff;
+}
+header .logo{
+float:left;
+margin-right:75px;
+    width:200px;
+    height:80px;
+    text-align:right;
+    line-height:70px;
+
+}
+header .slogo{
+float:right;
+width:150px;
+    line-height:80px;
+
+
+}
+header nav{
+    float:left;
+    width:800px;
+    height:311px;
+    line-height:125px;
+}
+header nav ul{
+    list-style:none;
+}
+header nav ul li {
+    float:left;
+    margin-left:80px;
+    font-family:'Roboto Condensed',sans-serif;
+}
+header .logoiki{
+    float:right;
+    width:240px;
+    height:30px;
+    line-height:125px;
+}
+header .txtarama{
+  
+    width: 150px;
+    padding: 5px;
+    height: 15px;
+    margin-top: -71px;
+    background-color: #b5b4b4;
+}
+header .tarama{
+    float: right;
+    width: 300px;
+    padding: 5px;
+    height: 11px;
+        margin-right:533px;
+
+    margin-top: -71px;
+    background-color: #b5b4b4;
+}
+header .btnarama{
+    
+    width: 50px;
+    height: 25px;
+    margin-top: -71px;
+    border-left: 1px solid #b5b4b4 ;
+}
+
+
+header .btarama {
+    float: right;
+    width: 50px;
+    height: 21px;
+        margin-right:530px;
+
+    margin-top: -71px;
+    border-left: 1px solid #b5b4b4 ;
+}
+.banner {
+    float:left;
+    width: 33.333%;
+    height:350px;
+    background-color:#3d46e1;
+    line-height:200px;
+    text-align:center;
+    font-size:56px;
+}.banner1 {
+    float:left;
+    width:506px;
+    height:200px;
+    background-color:#3d46e1;
+    line-height:200px;
+    text-align:center;
+    font-size:56px;
+}.banner2 {
+    float:left;
+    width:506px;
+    height:200px;
+    background-color:#3d46e1;
+    line-height:200px;
+    text-align:center;
+    font-size:56px;
+}
+.sol-taraf {
+    float:left;
+    width:300px;
+    height:500px;
+    background-color:#b5b4b4;
+    margin-top:65px;
+    line-height:200px;
+}
+
+.sol-taraf1 {
+    float:left;
+    width:500px;
+    height:200px;
+    background-color:#b5b4b4;
+    margin:45px;
+    line-height:200px;
+
+}
+.sol-taraf2{
+    float:left;
+    width:500px;
+    height:300px;
+    background-color:#b5b4b4;
+    margin:55px;
+    line-height:300px;    
+}
+.sol-taraf3{
+    float:left;
+    width:300px;
+    height:500px;
+    background-color:#b5b4b4;
+    margin:50px;
+    line-height:300px; 
+}
+
+.icerik {
+    width: 100%;
+    height: 100vh;
+    text-align:center;
+    color: #0c0c0c;
+    background: #b5b4b4;
+}
+
+footer {
+   float: left;
+  
+    width: 100%;
+    height: 60px;
+    margin-top: 0px;
+    background-color: #ffffff;
+    text-align: center;
+    line-height: 60px;
+    color: #000000;
+}
+.banneralan {
+    width: 100%;
+    position: relative;
+    display: inline-block;
+}
+
+
+.solbolum {
+
+    position: relative;
+    float: left;
+    width: 75%;
+   
+    background: #b5b4b4;
+}
+
+.sagbolum {
+    float: right;
+    width: 25%;
+    position: relative;
+    background: #b5b4b4;
+}
+.populer {
+        width: 300px;
+    height: 650px;
+    background-color: #e9e9e9;
+    margin: 16px;
+}
+.ortalan {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background: #b5b4b4;
+}
+
+
+.solalt{
+       position: absolute;
+    bottom: -5px;
+    height: 200px;
+    left: 41px;
+    background: #b5b4b4;
+    width: 70%;
+}
+.ilkalan {
+    position: relative;
+    width: 290px;
+    height: 300px;
+    background: #b5b4b4;
+    margin: 21px 10px;
+    float: left;
+}
+.ilkalan1 {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-top: 15px;
+}
+.sicerik{
+     width: 100%;
+    height: 100vh;
+    text-align:center;
+    color:#000000;
+    background: #b5b4b4;
+}
+.ssagbolum{
+   float: right;
+    width: 75%;
+    height: 103%;
+    position: relative;
+    background-color: gray;
+    top: 0px;
+    left: 0px;
+}
+.ssolbolum{
+      position: relative;
+    float: left;
+    width: 25%;
+    height: 100%;
+    background: grey;
+}
+.menü {
+    position:absolute;
+    text-align:center;
+    width:100%;
+    height:100%;
+    overflow:scroll;
+    overflow-x:scroll;
+    overflow-x:hidden;
+    background:white;
+
+}
+.menü1{
+    position:absolute;
+    text-align:center;
+    width:90%;
+    height:72%;
+    overflow:scroll;
+    overflow-x:scroll;
+    overflow-x:hidden;
+    background:gray;
+    top: 0px;
+    left: 105px;
+}
+.kaydol .kayıt{
+    float:right;
+    width:50px;
+    height:25px;
+    background-color:white;
+    margin:10px;
+
+}
+.kaydol .giris{
+    float :right;
+    width:50px;
+    height:25px;
+    background-color:white;
+    margin:10px;
+}
+.kaydol .baslik{
+    float:right;
+    width:70px;
+    height:25px;
+    background-color:white;
+    margin:10px;
+}
+.baslik1{
+    margin-top:50px;
+    color:black;
+
+}
+textarea.yorumlar {
+    POSITION: ABSOLUTE;
+    bottom: 10px;
+    left: 10px;
+    width: 50%;
+    height: 125px;
+    font-size:medium;
+}
+.yorum{
+    POSITION: ABSOLUTE;
+    left: 600px;
+    bottom: 10px;
+    width: 100px ;
+    height: 50px;
+    text-align:center;
+    font-size:small;
+}
+
+.ilkalan1{
+    position:absolute;
+   
+    width: 80%;
+    height: 30%;
+    background-color: white;
+    margin-top: 16px;
+    margin-left:60px;
+}
+.sol-ilkalan1{
+    float:left;
+    width: 30%;
+    height: 100%;
+    background-color: red;
+
+}
+.sag-ilkalan1{
+    
+    width: 70%;
+    height: 100%;
+    background-color: white;
+}
+.ilkalan2{
+    
+    float:left;
+    width: 80%;
+    height: 30%;
+    background-color: red;
+    margin-top: 243px;
+    margin-left:60px;
+}
+.sol-ilkalan2{
+    float:left;
+    width: 30%;
+    height: 100%;
+    background-color: white;
+}
+.sag-ilkalan2{
+    float: right;
+    width: 70%;
+    height: 100%;
+    background-color: red;
+}
+
+
+.ilkalan3{
+    float:left;
+    width: 80%;
+    height: 30%;
+    background-color: green;
+    margin-top: 7px;
+    margin-left:60px;
+}
+.sol-ilkalan3{
+    float:left;
+    width: 30%;
+    height: 100%;
+    background-color: red;
+
+}
+.sag-ilkalan3{ float: right;
+    width: 70%;
+    height: 100%;
+    background-color: white;
+
+
+}
+.icerik-textarea{
+    color:black;
+}
+.ort-göster{
+    float:left;
+    margin:50px;
+    border:25px;
+    background-color:white;
+    border-color:white;
+    width:80%;
+    height:100%;
+}
+.aw-widget-current {
+
+    float:right;
+    width: 130px;
+    height:300px;
+    margin-top:16px;
+    margin-right:10px;
+    
+}
+
+.baslikdiv {
+    background-color: white;
+}
+.baslikdiv2 {
+   
+    margin-top: 5px;
+    margin-bottom: 5px;
+  
+}
+.detay {
+    height: 20px;
+    text-align:right;
+    background-color: white;
+    color:#f6b929;
+}
+.rpt2 {
+    padding: 15px;
+}
+.post {
+    background-color: #e8e8e8;
+    height: 200px;
+    width: 900px;
+}
+.sol {
+    float: left;
+    background-color: #e8e8e8;
+    height: 100%;
+    width: 30%;
+}
+.sag-ust {
+  
+}
+.sag-alt {
+    height: 20px;
+    width: 85%;
+    background-color: aliceblue;
+    
+    
+}
+.rsm {
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+
+    
+}
+.aciklama {
+    padding: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
